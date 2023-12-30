@@ -71,9 +71,9 @@
                             <span
                                 class="w-[50px] h-[1px] absolute left-0 group-hover:w-full bg-[#000000] duration-[.5s] "></span>
                         </span>
-                        <span class=" -black w-full text-[#717178ff] flex justify-start items-center"><i
+                        <span class="w-full text-[#717178ff] flex justify-start items-center"><i
                                 class="bi bi-telephone text-[#000000]"></i> +98 930 360 0182</span>
-                        <span class=" -black w-full text-[#717178ff] flex justify-start items-center"><i
+                        <span class=" w-full text-[#717178ff] flex justify-start items-center"><i
                                 class="bi bi-envelope text-[#000000]"></i> alifarrokh1382@gmail.com</span>
 
                     </div>
@@ -574,6 +574,27 @@
     let main = document.getElementsByTagName('main')[0]
     let sec = document.getElementById('sec')
     let width = aside.clientWidth + 'px'
+    // function onResize() {
+    //     width = aside.clientWidth + 'px'
+    //     console.log(typeof width);
+    //     console.log(width);
+    // }
+
+
+    // toggle.addEventListener('click', (e) => {
+    //     // onResize()
+    //     if (aside.classList.contains('translate-x-[-100%]') && main.classList.contains('translate-x-[0px]')) {
+    //         aside.classList.remove('translate-x-[-100%]')
+    //         aside.classList.add('translate-x-[0%]')
+    //         main.classList.remove('translate-x-[0px]')
+    //         main.classList.add(`translate-x-[${width}]`)
+    //     } else {
+    //         aside.classList.add('translate-x-[-100%]')
+    //         aside.classList.remove('translate-x-[0%]')
+    //         main.classList.add(`translate-x-[${width}]`)
+    //         main.classList.add('translate-x-[0px]')
+    //     }
+    // })
 
 
     toggle.addEventListener('click', (e) => {
